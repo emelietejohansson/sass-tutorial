@@ -2,6 +2,29 @@
   background: #032F3E;
 }
 
+#main-nav ul {
+  width: 100%;
+}
+
+#main-nav li {
+  float: left;
+  width: 14%;
+}
+
+#main-nav a {
+  color: #F8F9FB;
+  text-decoration: none;
+  padding: 16px;
+  display: block;
+  text-align: center;
+}
+
+#main-nav ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 section h1 {
   font-size: 24px;
   color: #032F3E;

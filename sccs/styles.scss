@@ -1,10 +1,33 @@
 // Variables
 
 $deepBlue: #032F3E;
+$offWhite: #F8F9FB;
 $sectionHeading: 24px;
 
 #main-nav{
     background: $deepBlue;
+    ul{
+        width: 100%;
+    }
+    li{
+        float: left;
+        width: 14%;
+    }
+    a{
+        color: $offWhite;
+        text-decoration: none;
+        padding: 16px;
+        display: block;
+        text-align: center;
+    }
+}// end #main-nav
+
+//Clear fix rule
+// So we can get the height of the ul back (it collapsed because of li floating left)
+#main-nav ul::after{
+    content: "";
+    display: block;
+    clear: both;
 }
 
 section h1{
