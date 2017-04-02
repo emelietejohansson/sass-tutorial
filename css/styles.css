@@ -1,11 +1,8 @@
-.rule {
-  color: red;
+#main-nav {
+  background: #032F3E;
 }
 
-.rule a {
-  color: blue;
-}
-
-.rule a span {
-  color: pink;
+section h1 {
+  font-size: 24px;
+  color: #032F3E;
 }
