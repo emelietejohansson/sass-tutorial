@@ -4,5 +4,5 @@ Following [The Net Ninja SASS Youtube Tutorial](https://www.youtube.com/playlist
 
 Learning some basic SASS using [Prepros (https://prepros.io/)] as a compiler
 
-**Branch for each lesson** 
+**There will be a branch for each lesson** 
 * Lesson 2 - just trying some basic stuff such as declaring a rule
